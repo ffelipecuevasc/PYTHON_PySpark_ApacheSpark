@@ -34,3 +34,21 @@ Este notebook avanza hacia un enfoque más estructurado con:
   - ⚙️ **Tungsten:** mejoras físicas a nivel de memoria y ejecución.
 
 🎯 Este segundo notebook es ideal para quienes desean avanzar en el uso eficiente de Spark SQL y comprender cómo Spark optimiza sus operaciones internas.
+
+## 3️⃣ Apache Spark Streaming.ipynb
+
+Simulación de procesamiento en tiempo real con Spark Structured Streaming. Este notebook introduce el procesamiento de flujos de datos simulados utilizando Apache Spark Streaming en Google Colab, ideal para comprender cómo funciona el modelo de micro-batches en contextos reales.
+
+En este proyecto aprenderás a:
+
+- ⚙️ Configurar un entorno Spark Streaming desde cero en Google Colab.
+- 📁 Simular la llegada de datos en tiempo real usando archivos CSV copiados como micro-lotes.
+- 🧱 Definir esquemas estructurados (`StructType`) para la lectura de datos en modo `readStream`.
+- 📊 Aplicar transformaciones en tiempo real como `groupBy` y `count` sobre flujos continuos.
+- 🖨️ Utilizar `foreachBatch` para imprimir resultados procesados por cada micro-batch.
+- 🧠 Comprender conceptos clave como:
+  - 📦 **Micro-batch:** pequeñas porciones de datos procesadas a intervalos definidos.
+  - 📝 **Checkpoint:** carpeta donde Spark guarda el estado de ejecución para tolerancia a fallos.
+  - 🔄 **Diferencias entre batch y streaming:** ejecución tradicional vs. flujo continuo.
+
+🎯 Este tercer notebook es especialmente útil para quienes desean iniciarse en el **procesamiento de datos en tiempo real** de manera progresiva, sin depender de herramientas externas como Kafka o Flink.
